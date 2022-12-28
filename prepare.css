@@ -1,0 +1,19 @@
+#meas_plg {
+  padding: 3%;
+  width: 500px;
+  border: 1px black solid;
+}
+#meas_plg #meas {
+  margin-bottom: 10px;
+  border: 1px black solid;
+  width: 100%;
+  cursor: crosshair;
+}
+#meas_plg #base_size {
+  width: 50px;
+}
+#meas_plg p {
+  border: 1px black solid;
+  height: 50px;
+  text-align: center;
+}/*# sourceMappingURL=prepare.css.map */
