@@ -1,10 +1,12 @@
 #meas_plg {
   padding: 3%;
-  width: 500px;
+  width: 1000px;
   border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 #meas_plg #meas {
-  margin-bottom: 10px;
   border: 1px black solid;
   width: 100%;
   cursor: crosshair;
@@ -12,8 +14,16 @@
 #meas_plg #base_size {
   width: 50px;
 }
-#meas_plg p {
+#meas_plg #base {
+  margin-left: 20px;
+}
+#meas_plg .text {
+  width: 100%;
   border: 1px black solid;
-  height: 50px;
+}
+#meas_plg .text p {
   text-align: center;
+}
+#meas_plg .open input {
+  width: 63%;
 }/*# sourceMappingURL=prepare.css.map */

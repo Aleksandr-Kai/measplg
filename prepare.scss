@@ -1,9 +1,11 @@
 #meas_plg{
     padding: 3%;
-    width: 500px;
+    width: 1000px;
     border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     #meas{
-        margin-bottom: 10px;
         border: 1px black solid;
         width: 100%;
         cursor: crosshair;
@@ -11,9 +13,19 @@
     #base_size{
         width: 50px;
     }
-    p{
+    #base{
+        margin-left: 20px;
+    }
+    .text{
+        width: 100%;
         border: 1px black solid;
-        height: 50px;
-        text-align: center;
+        p{
+            text-align: center;
+        }
+    }
+    .open{
+        input{
+            width: 63%;
+        }
     }
 }
