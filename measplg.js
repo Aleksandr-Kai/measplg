@@ -120,7 +120,7 @@ function MeasPlg(containerSelecor,style_width='500px') {
             if (me.k === 1) {
                 me.k = me.baseSize/l;
                 me.res.textContent = `${me.baseSize} = ${Math.floor(l)}px`;
-                me.baseTxt.textContent = `1 = ${Math.floor(l/me.baseSize)}px`;
+                me.baseTxt.textContent = `1 = ${(Math.floor(l)/me.baseSize).toFixed(2)}px`;
             }else {
                 let res = l * me.k;
                 me.res.textContent = (res > 100)?Math.floor(res):res.toFixed(2);
